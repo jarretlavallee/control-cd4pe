@@ -26,8 +26,8 @@ File { backup => false }
 # For more on node definitions, see: https://puppet.com/docs/puppet/latest/lang_node_definitions.html
 node default {
 
-  if $trusted['pp_role'] and defined("role::${trusted['pp_role']}") {
-    include "role::${trusted['pp_role']}"
+  if $trusted['extensions'] and $trusted['extensions']['pp_role'] and defined("role::${trusted['extensions']['pp_role']}") {
+    include "role::${trusted['extensions']['pp_role']}"
   } else {
     include role::default
   }
