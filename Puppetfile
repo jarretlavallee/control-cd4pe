@@ -11,6 +11,7 @@ mod 'puppetlabs-docker', '3.9.1'
 mod 'puppetlabs-apt', '7.3.0'
 mod 'puppetlabs-translate', '2.1.0'
 mod 'puppetlabs-powershell', '3.0.1'
+mod 'puppetlabs-pwshlib', '0.4.0'
 mod 'puppetlabs-reboot', '2.4.0'
 mod 'puppetlabs-pipelines', '1.0.1'
 
