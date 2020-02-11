@@ -1,1 +1,13 @@
-modules/
+modules
+*.swp
+*.pyc
+*.DS_Store
+.onceover
+Gemfile.lock
+*.bak
+*.orig
+keys
+forge_resolve_version.rb
+.yardoc
+REFERENCE.md
+.bundle
